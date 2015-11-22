@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SEXY KEVINS.COM - PRESENT!!!!</title>
+		<style>
+			#main1 {
+			color: red;
+			text-align: center;
+			width: 1000px;
+			padding: 25px;
+			border: 1px solid black;
+			margin: auto;
+			font-family: "comic sans MS";
+			background-image: url(bday.gif);
+			}
+			h1 {
+  -moz-animation-duration: 400ms;
+  -moz-animation-name: blink;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  
+  -webkit-animation-duration: 400ms;
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-size: 100px;
+}
+		h2.hej {
+			border-bottom: 2px solid #000;
+			background:#000;
+			color:#fff;
+			padding:3px 15px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 10px;
+			text-align: center;
+			color: red;
+			}
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: red;
+  }
+
+  25% {
+    color: green;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    color: blue;
+  }
+
+  75% {
+   opacity: 0;
+   color: yellow;
+ }
+
+ 100% {
+   opacity: 1;
+   color: purple;
+ }
+}
+			
+		</style>
+		<script>
+			function startTime() {
+			var today = new Date();
+			var h = today.getHours();
+			var m = today.getMinutes();
+			var s = today.getSeconds();
+			m = checkTime(m);
+			s = checkTime(s);
+			document.getElementById('txt').innerHTML =
+			h + ":" + m + ":" + s;
+			var t = setTimeout(startTime, 500);
+}
+			function checkTime(i) {
+			if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			return i;
+}
+		</script>
+	</head>
+	<body background = "happy.jpg" onload="startTime()">
+		<div id = "main1">
+			<h1>PRESENT TIME!!!</h1>
+			<p id = "txt"></p>
+			<video controls autoplay loop>
+				<source src="http://webm.host/7484a/vid.webm" type="video/webm">
+			</video>
+			<h2>jolly celeboratory dance of existance day spirits!</h2>
+			<img class = "jag" alt="En bild på mig" width = 200 src="bday2.gif"><img class = "jag" alt="En bild på mig" width = 200 src="bday2.gif"><img class = "jag" alt="En bild på mig" width = 200 src="bday2.gif"><img class = "jag" alt="En bild på mig" width = 200 src="bday2.gif"><img class = "jag" alt="En bild på mig" width = 200 src="bday2.gif">
+			<h3>And here is your free game key!! Activate using the <img class = "jag" alt="En bild på mig" width = 200 height = 100 src="steam.gif"> service!</h3>
+			<h2 class = "hej">C6M4W-2078N-I0FM8</h2>
+			<a href="index.html">
+			<img height = 100 width = 800 src="gadda.gif"><br/>
+			</a>
+			<h2 class = "hej">^Back 2 Index!^</h2>
+			
+			
+		</div>
+		
